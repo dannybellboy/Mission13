@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{B1D27462-20EB-497C-8007-84ED67D764AD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Mission13/Controllers/HomeController.cs" Line="13" Column="6" />
+      <File FileName="Mission13/Views/Home/Add.cshtml" Line="2" Column="36" />
+      <File FileName="Mission13/Views/Shared/_Layout.cshtml" Line="8" Column="52" />
+      <File FileName="Mission13/Views/Home/Index.cshtml" Line="21" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission13" expanded="True">
+            <Node name="Mission13" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Mission13 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
