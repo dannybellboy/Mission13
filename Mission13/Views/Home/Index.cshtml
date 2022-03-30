@@ -1,21 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-</div>
+@model List<Bowler>
 
-
-<div class="col-3">
-    @*@foreach t in Model.Teams*@
-    <p>This will be a filter</p>
+<div id="teams" class="col-3">
+    @*<vc:teams></vc:teams>*@
 </div>
 
 <div class="col">
     <table class="table table-bordered table-outline">
         <thead>
             <tr>
+                <th>Bowler ID:</th>
                 <th>First Name:</th>
                 <th>Middle Initial:</th>
                 <th>Last Name:</th>
@@ -27,19 +23,13 @@
             </tr>
         </thead>
         <tbody>
-            @*@foreach b in Model :*@
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td><button class="btn-warning">Edit</button></td>
-                <td><button class="btn-danger">Delete</button></td>
-            </tr>
+            @foreach (var b in Model)
+            {
+                <partial name="BowlerSummary" model="b" />
+            }
         </tbody>
     </table>
+    <br />
+    <br />
+    <br />
 </div>

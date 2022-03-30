@@ -1,0 +1,11 @@
+﻿@{
+}
+
+@model Bowler
+
+<h1>Are you sure you want to delete @Model.BowlerFirstName @Model.BowlerLastName - @Model.BowlerID?</h1>
+<form asp-action="Delete">
+    <button type="submit" class="btn btn-danger">Delete</button>
+
+    <input type="hidden" asp-for="BowlerID" />
+</form>
